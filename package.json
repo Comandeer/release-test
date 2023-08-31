@@ -1,0 +1,13 @@
+{
+  "name": "release-test",
+  "private": true,
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push origin && git push origin --tags"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
